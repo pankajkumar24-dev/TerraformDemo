@@ -28,3 +28,21 @@ AWSCLI installation
 Download AWSCLI latest version from here and install it.
 
 or you can run the below command in powershell or the command prompt
+
+==========================================================
+
+ How to Deploy?
+1️⃣ Save this file as vpc_ec2.tf
+2️⃣ Initialize Terraform:
+
+terraform init
+3️⃣ Check for errors before applying:
+
+terraform validate
+4️⃣ Preview what Terraform will create:
+
+terraform plan
+5️⃣ Deploy the infrastructure:
+
+terraform apply -auto-approve
+
